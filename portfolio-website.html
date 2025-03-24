@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<!--------------------------------- Script for landing page------------------>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+<script>
+    tsParticles.load("hero", {
+        particles: { color: { value: "#ffffff" }, number: { value: 80 } }
+    });
+</script>
+<!------------------------------------------------------------------------------------------------->
+<body>
+    <!-- Content will go here -->
+
+     <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Hello, I'm Praketh Bachu</h1>
+            <p>A software developer with a Master's degree who turns intricate problems into refined code solutions.</p>
+            <a href="#projects" class="button">View my work</a>
+            
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/praketh-bachu/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Praketh123" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:praketh2000@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.instagram.com/prakethbachu?igsh=a2R1anU0endrMmtn" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <!-- Replace with your image -->
+                    <img src="./aboutme_img.jpg" alt="Your Photo">
+                </div>
+                <div class="about-text">
+
+                    <p>My name is Praketh Bachu, and I am a graduate student in Information Systems and Technologies with 
+                        an extensive academic experience in software development. My academic path has provided me with both conceptual 
+                        understanding and practical expertise in Java programming, including Object-Oriented techniques, 
+                        Data Structures, and Algorithms.</p>
+
+                    <p>My technical skills in front-end programming include leveraging React to create interfaces that 
+                        respond intuitively to different platforms. I meticulously complete each work by writing code that 
+                        retains functionality while providing optimal performance while producing clean, efficient solutions.</p>
+
+                    <p>My professional aim is to secure a position in software development or engineering where I will be able 
+                        to contribute creative ideas through teamwork while also growing professionally.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <!-- Skill 1 -->
+                <div class="skill-card">
+                    <div class="skill-icon">☕</div>
+                    <h3>Java</h3>
+                    <p>My primary programming language</p>
+                </div>
+                
+                <!-- Skill 2 -->
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3>DSA</h3>
+                    <p>To write optimized and scalable code</p>
+                </div>
+                
+                <!-- Skill 3 -->
+                <div class="skill-card">
+                    <div class="skill-icon">🧩</div>
+                    <h3>OOPs</h3>
+                    <p>Organize and structure the code</p>
+                </div>
+                
+                <!-- Skill 4 -->
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <h3>React</h3>
+                    <p>For building user interface for web applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./login_app.jpg" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Secure login system with React and JDBC</h3>
+                        <p class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>React</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>JDBC</span>
+                        </p>
+                        <p class="project-summary">Designed and developed a secure authentication system with user login and registration.</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Implemented password hashing using Bcrypt for enhanced security</li>
+                                <li>Connected the frontend to a backend API using fetch and Express.js</li>
+                                <li>Integrated a MySQL database to store and validate user credentials using JDBC.</li>
+                                <li>Ensured CORS compatibility for seamless frontend-backend communication.</li>
+                            </ul>
+                        </div>
+                        <button class="view-more-btn">View More</button>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./learnfinity_img.webp" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Learning Platform - Learnfinity</h3>
+                        <p class="project-tags">
+                            <span>ASP.Net</span>
+                            <span>MySQL</span>
+                            <span>Microsoft Visio</span>
+                        </p>
+                        <p class="project-summary">Created the websites wireframe using Microsoft Visio and implemented using 
+                            ASP.NET keeping C# as a primary programming language.</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Managed diverse database operations including accepting and retrieving data from 
+                                    users, updating information upon user input on the website, as well as facilitating
+                                     data deletion directly from the website interface.</li>
+
+                                <li>Deployed the website onto the Atlas server for online accessibility.</li>
+                            </ul>
+                        </div>
+                        <button class="view-more-btn">View More</button>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./dashboard_img.jpg" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Visualizing the Gun Violence Trend in US over the past few years using Tableau</h3>
+                        <p class="project-tags">
+                            <span>Tableau</span>
+                            <span>Python</span>
+                            <span>Dashboard</span>
+                        </p>
+                        <p class="project-summary">Worked as a group of 4 to visualize the gun violence trend over 
+                            the past few years in the United States of America.</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Downloaded the dataset from 'Kaggle' and cleaned the data using Pandas.</li>
+                                <li>Created and Visualized Sheets and Dashboards in Tableau.</li>
+                            </ul>
+                        </div>
+                        <button class="view-more-btn">View More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies">
+        <div class="container">
+            <h2 class="section-title">Hobbies & Interests</h2>
+            <div class="hobbies-container">
+                <!-- Hobby 1 -->
+                <div class="hobby-card">
+                    <div class="hobby-img">
+                        <img src="./photography_img.webp" alt="Hobby 1">
+                    </div>
+                    <div class="hobby-content">
+                        <h3>Photography</h3>
+                        <p>I'm a passionate photographer. I had the honor of being selected as a 
+                            photographer for New York Fashion Week 2025, capturing iconic moments on the runway</p>
+                    </div>
+                </div>
+                
+                <!-- Hobby 2 -->
+                <div class="hobby-card">
+                    <div class="hobby-img">
+                        <img src="./travelling_img.webp" alt="Hobby 2">
+                    </div>
+                    <div class="hobby-content">
+                        <h3>Travelling</h3>
+                        <p>I love exploring new places, meeting new people and capturing the beauty of each 
+                            destination.</p>
+                    </div>
+                </div>
+                
+                <!-- Hobby 3 -->
+                <div class="hobby-card">
+                    <div class="hobby-img">
+                        <img src="./cooking_img.jpg" alt="Hobby 3">
+                    </div>
+                    <div class="hobby-content">
+                        <h3>Cooking</h3>
+                        <p>Cooking is my creative escape, where I experiment with flavors and enjoy 
+                            making delicious meals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="button">Send Message</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <!-- Add your social media links here -->
+                <a href="https://www.linkedin.com/in/praketh-bachu/">LinkedIn</a>
+                <a href="https://github.com/Praketh123">GitHub</a>
+                <a href="https://www.instagram.com/prakethbachu?igsh=a2R1anU0endrMmtn">Instagram</a>
+            </div>
+            <p>Praketh Bachu &copy; 2025 </p>
+        </div>
+    </footer>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
